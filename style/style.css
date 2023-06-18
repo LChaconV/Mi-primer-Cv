@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+body{
+    display: flex;
+    flex-direction: row;
+    -ms-flex-align: center;
+    width: 100vw;
+    justify-content: space-around;
+}
+header { display: flex;
+    flex-direction: column;
+    width: 40vw;
+    padding: 2%;
+    gap: 20px;
+    text-align: center;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 60vw;
+    background-color: blanchedalmond;
+    padding:5%;
+
+}
+
+.image-profile{
+    padding:0% 0% 5% 30%;
+     width: 70%;
+}
+
+p{color: rgb(71, 67, 67);
+    text-align: justify;
+padding-top: 5px;}
+
+li{font-size:16px;
+padding-top: 10px;
+color: rgb(71, 67, 67);
+text-align: justify;}
+
+
+/*Se crea la clase Nombre en el archivo html y se llama en este nombre .Nombre*/
+.Nombre{font-size: 40px;
+    font-family :'Times New Roman', Times, serif ;}
+
+
+/*llamar por clase o id */
+
+#perfil{color: rgb(231, 16, 16);}
